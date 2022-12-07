@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    
+  }
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background:white;
+}
+
+
+.input{
+  height: 200px;
+  width: 400px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px; 
+  margin:12px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  background-color: white;
+  /* text-align: center; */
+  
+}
+.input-box{
+  height: 100px;
+  width: 400px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px; 
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-family: 'Poppins',sans-serif;
+  background-color: white;
+    /* text-rendering: auto;  */
+     letter-spacing: normal; 
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;  
+    /* text-align: start; */
+    appearance: auto;
+    cursor: text;
+    margin:12px;
+    padding: 1px 2px;
+
+}
+.select-id{
+    height: 26px;
+  width: 400px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  display: block;
+  font-weight: 500;
+  margin:12px;
+  margin-bottom: 5px;
+  font-family: 'Poppins',sans-serif;
+    display: inline-block; 
+    text-align: start;
+    appearance: auto;
+    cursor: text;
+    margin:12px;
+    padding: 1px 2px; 
+}
+.send-btn{
+    /* height: 45px;
+   width:50%;
+   margin: 0 auto; */
+   height: 50px;
+   width: 50px;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   margin:1px;
+   padding: 12px;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
